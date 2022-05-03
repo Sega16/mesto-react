@@ -1,7 +1,6 @@
 
 .card__name {
-    background-color: #ffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    font-size: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }

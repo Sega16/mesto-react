@@ -3,7 +3,7 @@ import logo from "../images/logo.svg";
 
 function Header() {
     return (
-        <header class="header">
+        <header className="header">
             <img className="header__logo" src={logo} alt="логотип проекта"/>
         </header>
     );
