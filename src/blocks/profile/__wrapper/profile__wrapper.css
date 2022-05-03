@@ -1,0 +1,13 @@
+
+.profile__wrapper {
+    background-image: url(../../../images/pancel.svg);
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0 30px 0 0;
+}
+
+.profile__avatar-edit-btn:hover {
+    cursor: pointer;
+}

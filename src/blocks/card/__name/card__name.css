@@ -1,0 +1,7 @@
+
+.card__name {
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

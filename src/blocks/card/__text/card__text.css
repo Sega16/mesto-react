@@ -1,0 +1,11 @@
+
+.card__text {
+    margin: 25px auto 31px 21px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 210px;
+}

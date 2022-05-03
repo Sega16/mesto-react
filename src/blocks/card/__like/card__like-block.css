@@ -1,0 +1,7 @@
+
+.card__like-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}

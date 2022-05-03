@@ -1,0 +1,21 @@
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 17px;
+    row-gap: 20px;
+}
+
+@media  screen and (max-width:900px) {
+    .cards {
+        grid-template-columns: min-content min-content;
+    }
+    
+}
+
+@media  screen and (max-width:600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}

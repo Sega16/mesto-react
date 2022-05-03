@@ -1,0 +1,14 @@
+
+.profile__info {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 244px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    .profile__info {
+        margin: 0 auto 36px;
+    }
+    
+}
