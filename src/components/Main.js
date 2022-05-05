@@ -47,13 +47,12 @@ function Main({ onEditAvatar, onEditProfile, onAddPlace, onCardClick }) {
             <div className="profile__text">
               <h1 className="profile__title">{userName}</h1>
               <p className="profile__subtitle">{userDescription}</p>
+              </div>
               <button
                 className="profile__btn-edit link"
                 type="button"
                 onClick={onEditProfile}
-              ></button>
-            </div>
-            
+              ></button>       
           </div>
         <button
           className="profile__btn-add link"
