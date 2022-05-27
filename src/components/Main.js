@@ -42,7 +42,7 @@ function Main({
           {cards.map((card) => {
             return (
               <Card
-                key={card.cardId}
+                key={card._id}
                 card={card}
                 onCardClick={onCardClick}
                 onCardLike={onCardLike}
